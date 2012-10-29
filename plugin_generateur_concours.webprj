@@ -1,0 +1,28 @@
+<!DOCTYPE webproject>
+<webproject>
+  <project type="Local" name="plugin_generateur_concours" encoding="utf8" >
+    <upload/>
+    <author/>
+    <email/>
+    <defaultDTD>-//W3C//DTD XHTML 1.0 Strict//EN</defaultDTD>
+    <item url="base/" uploadstatus="1" />
+    <item url="formulaires/" uploadstatus="1" />
+    <item url="lang/" uploadstatus="1" />
+    <item url="lang/pb_selection_fr.php" uploadstatus="1" />
+    <item url="plugin.xml" uploadstatus="1" />
+    <item url="" uploadstatus="1" />
+    <templates>templates/</templates>
+    <toolbars>toolbars/</toolbars>
+    <annotations>
+      <annotation line="27" receiver="" url="formulaires/concours.php" text="Actualisation de la base de donnée" />
+    </annotations>
+    <item url="base/gc_tables_principales.php" uploadstatus="1" />
+    <item url="base/gc_install.php" uploadstatus="1" />
+    <item url="base/gc_tables_interfaces.php" uploadstatus="1" />
+    <item url="formulaires/concours.php" uploadstatus="1" />
+    <item url="formulaires/concours.html" uploadstatus="1" />
+    <item url="inc/" uploadstatus="1" />
+    <item url="inc/form_text.html" uploadstatus="1" />
+    <item url="inc/champs.html" uploadstatus="1" />
+  </project>
+</webproject>

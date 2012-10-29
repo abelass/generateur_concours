@@ -1,0 +1,5 @@
+<ul>
+<BOUCLE_champs(POUR){tableau #ENV{questions}}>
+	<INCLURE{fond=inc/form_(#VALEUR|table_valeur{type})}{val=#VALEUR}/>
+</BOUCLE_champs>
+</ul>

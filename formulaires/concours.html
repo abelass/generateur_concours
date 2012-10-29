@@ -1,0 +1,8 @@
+<div class="formulaire_spip formulaire_concours">
+[(#ENV{message_ok}|non)<form action="#ENV{action}" method="post"><div>
+    #ACTION_FORMULAIRE{#ENV{action}}
+	<INCLURE{fond=inc/champs}{env}/>
+    <p class="boutons"><input type="submit" class="submit" value="<:pass_ok:>" /></p>
+</div></form>]
+[(#ENV{message_ok}|oui)<h4 class="ok"> Merci pour votre participation !</h4>]
+</div>
